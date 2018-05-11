@@ -11,7 +11,7 @@ client.on("message", (message) => {
   }
 });
 client.login("NDQ0MTc3NTc3NDczNDc0NTcx.DdYIKg.oKChTfc-TbP2rXUy94cck8vbuvg");
-  if (!message.content.startsWith(prefix + "account")) {
-    message.channel.send("bar!");
+  if (!message.content.startsWith(prefix + "yt")) {
+    message.channel.send("https://www.youtube.com/channel/UCHB6-XL-tFejA27WHi69ncA");
   }
 });
